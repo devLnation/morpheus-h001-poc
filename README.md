@@ -13,7 +13,8 @@ share of the fixed daily emission.
 forge test
 ```
 
-That is the whole setup. The tests fork Ethereum mainnet at block 26430188
+That is the whole setup. The test is self-contained (no forge-std, no
+dependencies, no remappings) and forks Ethereum mainnet at block 26430188
 through the public RPC in `foundry.toml` (no API key needed).
 
 ## What the tests prove
